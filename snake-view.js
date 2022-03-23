@@ -77,7 +77,9 @@ View.KEYS = {
   68: 'E', 
   87: 'N'
 };
-
+pA = ()=> {
+    window.location.reload(true)
+}
 playAgain.addEventListener('click', pA)
 View.STEP_MILLIS = 100;
 
