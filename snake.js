@@ -107,6 +107,6 @@ Snake.GROW_TURNS = 3;
 pA = ()=> {
     window.location.reload(true)
 }
-document.querySelector('play-again').addEventListener('click', pA);
+document.querySelector('.play-again').addEventListener('click', pA);
 
 module.exports = Snake;
