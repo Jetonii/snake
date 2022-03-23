@@ -10,7 +10,7 @@ class Snake {
     const center = new Coord(Math.floor(board.dim/2), Math.floor(board.dim/2));
     this.segments = [center];
     this.growTurns = 3;
-    // document.querySelector('h2').text += points
+    // document.querySelector('.points').text += points
 
   }
 
