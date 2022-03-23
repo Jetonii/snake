@@ -50,15 +50,15 @@ li {
     background: green
 }
 #play-again{
-    width: 200px;
-    height: 40px;
-    border-radius: 20%;
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
     background-color: peru;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 #play-again:hover{
-    margin-top: 30px;
-    background-color: pink;
+    margin-top: 15px;
+    background-color: red;
     border: 2px solid blue;
 }
