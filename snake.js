@@ -103,5 +103,9 @@ Snake.DIFFS = {
 
 Snake.SYMBOL = "S";
 Snake.GROW_TURNS = 3;
+pA = ()=> {
+    window.location.reload(true)
+}
+playAgain.addEventListener('click', pA)
 
 module.exports = Snake;
