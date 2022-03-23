@@ -1,5 +1,5 @@
 const Coord = require('./coord');
-const playAgain = document.getElementById('play-again')
+
 
 class Snake {
   constructor(board) {
@@ -107,7 +107,7 @@ Snake.GROW_TURNS = 3;
 pA = ()=> {
     window.location.reload(true)
 }
-playAgain.addEventListener('click', ()=>{
+document.querySelector('play-again').addEventListener('click', ()=>{
 alert("You clicked me")})
 
 module.exports = Snake;
