@@ -6,6 +6,9 @@ html, body, figure, figcaption, ul, li, h1 {
     text-align: inherit;
   }
   
+hr{
+    width: 30%;
+}
 
 ul {
     list-style: none;
