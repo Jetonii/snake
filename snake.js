@@ -1,4 +1,5 @@
 const Coord = require('./coord');
+const playAgain = document.getElementById('play-again')
 
 class Snake {
   constructor(board) {
