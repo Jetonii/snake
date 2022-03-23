@@ -1,5 +1,5 @@
 const Board = require('./board.js');
-const playAgain = document.getElementById('play-again')
+
 
 class View {
   constructor($el) {
@@ -80,7 +80,7 @@ View.KEYS = {
 pA = ()=> {
     window.location.reload(true)
 }
-playAgain.addEventListener('click', pA)
+document.querySelector('.play-again').addEventListener('click', pA);
 View.STEP_MILLIS = 100;
 
 module.exports = View;
