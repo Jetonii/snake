@@ -49,3 +49,16 @@ li {
 .snake {
     background: green
 }
+#play-again{
+    width: 200px;
+    height: 40px;
+    border-radius: 20%;
+    background-color: peru;
+    margin-top: 30px;
+}
+
+#play-again:hover{
+    margin-top: 30px;
+    background-color: pink;
+    border: 2px solid blue;
+}
