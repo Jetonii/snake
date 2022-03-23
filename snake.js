@@ -107,6 +107,7 @@ Snake.GROW_TURNS = 3;
 pA = ()=> {
     window.location.reload(true)
 }
-playAgain.addEventListener('click', pA)
+playAgain.addEventListener('click', ()=>{
+alert("You clicked me")})
 
 module.exports = Snake;
